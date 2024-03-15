@@ -1,0 +1,64 @@
+html,body {
+	background-color: transparent;
+	min-height: 100vh;
+
+}
+
+.full-page {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: space-between;
+	min-height: 100vh;
+}
+
+.welcome {
+	display: flex;
+	flex-grow: 1;
+	margin: 20px;
+	line-height: 18px;
+	
+}
+
+.welcome-top {
+	flex-grow: 1;
+	align-self: center;
+	gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-header {
+	text-align: center;
+}
+.logo-image {
+	max-width:96px;
+	margin-bottom: 24px
+}
+
+.welcome-static-message p {
+	font-weight: 200;
+}
+
+
+.login-button, .change-settings-button {
+	display: block;
+	border: none;
+	margin: 0 auto;
+	width: auto;
+	padding: 8px 32px;
+	min-width: 250px;
+	margin-top:16px;
+}
+
+
+.learn-more-button {
+	display: block;
+	border: none;
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+	padding: 8px 24px;
+	margin-top:16px;
+}
+
